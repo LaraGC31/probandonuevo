@@ -1,0 +1,25 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  
+}
+html, body{
+  width: 100%;
+  height: 100%;
+}
+header{
+  background-color: #79CEA5;
+
+}
+header ul li {
+  list-style-type: none;
+
+}
+header ul li a{
+  text-decoration: none;
+  color: #000;
+      display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
