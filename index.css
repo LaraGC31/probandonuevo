@@ -36,3 +36,17 @@ footer{
 main{
   background-color: antiquewhite;
 }
+#jugadores img{
+  width: 25vh;
+}
+#jugadores{
+  display: flex;
+  align-items:center;
+  justify-content: center;
+  flex-direction: column;
+}
+h1{
+  font-size: 1.5rem;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  text-align: center;
+}
