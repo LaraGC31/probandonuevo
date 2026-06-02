@@ -1,52 +1,118 @@
 *{
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
-  
+  margin:0;
+  padding:0;
+  box-sizing:border-box;
 }
-html, body{
-  width: 100%;
-  height: 100%;
+
+html,body{
+  width:100%;
+  height:100%;
 }
+
 header{
-  background-color: #79CEA5;
-  padding: 2vh;
-  display: flex;
-    justify-content: space-between;
-        align-items: center;
+  background-color:#79CEA5;
+  padding:15px 20px;
+  display:flex;
+  justify-content:space-between;
+  align-items:center;
+  flex-wrap:wrap;
+}
+
+.logo img{
+  width:150px;
+  max-width:100%;
+  height:auto;
+}
+
+nav{
+  display:flex;
+  gap:20px;
+  flex-wrap:wrap;
 }
 
 nav a{
-      color: #000;
-  text-decoration: none;
-    font-size: 1.2rem;
-    margin-left: 10vh;
+  color:#000;
+  text-decoration:none;
+  font-size:1.2rem;
 }
+
 nav a:hover{
-  text-decoration: underline;
+  text-decoration:underline;
 }
-.logo img{
-  width: 25vh;
-}
-footer{
-  background-color: pink;
-  text-align: center;
-  color: #000;
-}
+
 main{
-  background-color: antiquewhite;
+  background-color:antiquewhite;
+  min-height:80vh;
 }
-#jugadores img{
-  width: 25vh;
+
+footer{
+  background-color:pink;
+  text-align:center;
+  color:#000;
+  padding:15px;
 }
+
+/* Imagen principal */
+#case{
+  display:flex;
+  justify-content:center;
+  padding:20px;
+}
+
+#case img{
+  width:100%;
+  max-width:1200px;
+  height:auto;
+  border-radius:10px;
+}
+
+/* Jugadores */
 #jugadores{
-  display: flex;
-  align-items:center;
-  justify-content: center;
-  flex-direction: column;
+  display:flex;
+  flex-wrap:wrap;
+  justify-content:center;
+  gap:20px;
+  padding:20px;
 }
+
+#jugadores img{
+  width:250px;
+  max-width:90%;
+  height:auto;
+  border-radius:10px;
+}
+
 h1{
-  font-size: 1.5rem;
-  font-family: Georgia, 'Times New Roman', Times, serif;
-  text-align: center;
+  font-size:1.5rem;
+  text-align:center;
+  
+}
+
+/* Móviles */
+@media (max-width:768px){
+
+  header{
+    flex-direction:column;
+    gap:15px;
+  }
+
+  nav{
+    justify-content:center;
+  }
+
+  nav a{
+    font-size:1rem;
+  }
+
+  .logo img{
+    width:120px;
+  }
+
+  #jugadores img{
+    width:180px;
+  }
+
+  h1{
+    font-size:1.2rem;
+  }
 }
