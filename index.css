@@ -41,8 +41,24 @@ nav a:hover{
 }
 
 main{
-  background-color:antiquewhite;
   min-height:90vh;
+  background-color: antiquewhite;
+    min-height: 90vh;
+    padding: 20px;
+
+}
+#cuadro{
+    width: 100%;
+    padding: 20px;
+    box-sizing: border-box;
+    max-width: 1000px;
+margin: 0 auto;
+}
+
+#cuadro p{
+    text-align: justify;
+    padding: 2px;
+    width: 100%;
 }
 
 footer{
