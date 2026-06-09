@@ -39,7 +39,35 @@ nav a{
 nav a:hover{
   text-decoration:underline;
 }
+.dropdown{
+    position:relative;
+}
 
+.submenu{
+    display:none;
+    position:absolute;
+    top:100%;
+    left:0;
+    background-color:#79CEA5;
+    min-width:180px;
+    padding:10px 0;
+    border-radius:5px;
+}
+
+.submenu a{
+    display:block;
+    padding:10px 15px;
+    text-decoration:none;
+    color:black;
+}
+
+.submenu a:hover{
+    background-color:#5db98d;
+}
+
+.dropdown:hover .submenu{
+    display:block;
+}
 main{
   min-height:90vh;
   background-color: antiquewhite;
@@ -77,13 +105,13 @@ footer{
 
 #case img{
   width:100%;
-  max-width:1200px;
+  max-width:700px;
   height:auto;
   border-radius:10px;
 }
 
 /* Jugadores */
-#jugadores{
+#jugadores, #jugadoresatm{
   display:flex;
   flex-wrap:wrap;
   justify-content:center;
@@ -91,7 +119,7 @@ footer{
   padding:20px;
 }
 
-#jugadores img{
+#jugadores img, #jugadoresatm img{
   width:250px;
   max-width:90%;
   height:auto;
@@ -103,10 +131,33 @@ h1{
   text-align:center;
   
 }
+.dropdown{
+    position:relative;
+}
+
+.submenu{
+    display:none;
+    position:absolute;
+    top:100%;
+    left:0;
+    background:#79CEA5;
+    min-width:180px;
+}
+
+.dropdown:hover .submenu{
+    display:block;
+}
 
 /* Móviles */
 @media (max-width:768px){
 
+    nav{
+        flex-direction:column;
+        width:100%;
+        align-items:center;
+    }
+
+   
   header{
     flex-direction:column;
     gap:15px;
@@ -127,6 +178,13 @@ h1{
   #jugadores img{
     width:180px;
   }
+  #case img{
+  width:100%;
+  max-width:1200px;
+  height:auto;
+  border-radius:10px;
+}
+
 
   h1{
     font-size:1.2rem;
