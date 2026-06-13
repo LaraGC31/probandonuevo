@@ -4,7 +4,21 @@ window.onload = function () {
    todo();
 }
 
+function todo() {
+    const toggle = document.querySelector('.dropdown-toggle');
+    const menu = document.querySelector('.dropdown');
 
+    if (!toggle || !menu) return;
+
+    toggle.addEventListener('click', function (e) {
+        if (window.innerWidth <= 768) {
+            e.preventDefault();
+            menu.classList.toggle('active');
+        }
+    });
+}
+
+document.addEventListener('DOMContentLoaded', todo);
 document.addEventListener('DOMContentLoaded', todo);
 function mostrarJugadores() {
     let contenedor = document.getElementById("jugadores");
