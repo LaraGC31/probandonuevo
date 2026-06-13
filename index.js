@@ -25,7 +25,7 @@ function mostrarJugadores() {
 
     if (!contenedor) return;
 
-    for (let i = 1; i < 11; i++) {
+    for (let i = 1; i < 20; i++) {
         const img = document.createElement("img");
         img.src = `fcb/imagen-${i}.jpg`;
         img.alt = "Jugador";
