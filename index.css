@@ -136,13 +136,18 @@ footer{
   padding:20px;
 }
 
-#jugadores img, #jugadoresatm img{
+#jugadores img{
   width:250px;
   max-width:90%;
   height:auto;
   border-radius:10px;
 }
-
+ #jugadoresatm img{
+  width:190px;
+  max-width:90%;
+  height:auto;
+  border-radius:10px;
+}
 h1{
   font-size:1.5rem;
   text-align:center;

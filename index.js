@@ -37,7 +37,7 @@ function mostrarJugadoresAtm() {
 
     if (!contenedor) return;
 
-    for (let i = 1; i < 2; i++) {
+    for (let i = 1; i < 24; i++) {
         const img = document.createElement("img");
         img.src = `atm/imagen-${i}.jpg`;
         img.alt = "JugadorATM";
