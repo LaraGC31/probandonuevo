@@ -1,6 +1,7 @@
 window.onload = function () {
     mostrarJugadores();
     mostrarJugadoresAtm();
+    mostrarJugadoresVilla();
    todo();
 }
 
@@ -41,6 +42,18 @@ function mostrarJugadoresAtm() {
         const img = document.createElement("img");
         img.src = `atm/imagen-${i}.jpg`;
         img.alt = "JugadorATM";
+        contenedor.appendChild(img);
+    }
+}
+    function mostrarJugadoresVilla() {
+    let contenedor = document.getElementById("jugadoresvilla");
+
+    if (!contenedor) return;
+
+    for (let i = 1; i < 25; i++) {
+        const img = document.createElement("img");
+        img.src = `villa/imagen-${i}.jpeg`;
+        img.alt = "JugadorVILLA";
         contenedor.appendChild(img);
     }
 }
