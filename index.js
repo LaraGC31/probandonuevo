@@ -15,9 +15,6 @@ fetch("b.json")
         copia.querySelector("h2").textContent = jugador.nombre;
         copia.querySelector(".dorsal").textContent = "👕 " + jugador.dorsal;
         copia.querySelector(".posicion").textContent = jugador.posicion;
-        copia.querySelector(".pais").textContent = jugador.pais;
-        copia.querySelector(".edad").textContent = jugador.edad + " años";
-        copia.querySelector(".altura").textContent = jugador.altura;
 
         contenedor.appendChild(copia);
 

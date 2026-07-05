@@ -1,38 +1,140 @@
 [
-    {
-        "nombre":"Joan García",
-        "dorsal":1,
-        "posicion":"Portero",
-        "pais":"España",
-        "edad":24,
-        "altura":"1,91 m",
-        "imagen":"fcb/joan.png"
-    },
-    {
-        "nombre":"Wojciech Szczęsny",
-        "dorsal":25,
-        "posicion":"Portero",
-        "pais":"Polonia",
-        "edad":36,
-        "altura":"1,95 m",
-        "imagen":"fcb/chesni.png"
-    },
-    {
-        "nombre":"Alejandro Balde",
-        "dorsal":3,
-        "posicion":"Defensa",
-        "pais":"España",
-        "edad":22,
-        "altura":"1,75 m",
-        "imagen":"fcb/balde.png"
-    },
-    {
-        "nombre":"Ronald Araújo",
-        "dorsal":4,
-        "posicion":"Defensa",
-        "pais":"Uruguay",
-        "edad":27,
-        "altura":"1,92 m",
-        "imagen":"fcb/ronald.png"
-    }
+  {
+    "nombre": "Marc-André ter Stegen",
+    "dorsal": 1,
+    "posicion": "Portero",
+    "imagen": "fcb/ter.jpeg"
+  },
+  {
+    "nombre": "Joan García",
+    "dorsal": 13,
+    "posicion": "Portero",
+    "imagen": "fcb/joan.jpeg"
+  },
+  {
+    "nombre": "Wojciech Szczęsny",
+    "dorsal": 25,
+    "posicion": "Portero",
+    "imagen": "fcb/chesni.jpeg"
+  },
+  {
+    "nombre": "Alejandro Balde",
+    "dorsal": 3,
+    "posicion": "Defensa",
+    "imagen": "fcb/balde.jpeg"
+  },
+  {
+    "nombre": "Ronald Araújo",
+    "dorsal": 4,
+    "posicion": "Defensa",
+    "imagen": "fcb/ronald.jpeg"
+  },
+  {
+    "nombre": "Pau Cubarsí",
+    "dorsal": 5,
+    "posicion": "Defensa",
+    "imagen": "fcb/cubarsi.jpeg"
+  },
+  {
+    "nombre": "Andreas Christensen",
+    "dorsal": 15,
+    "posicion": "Defensa",
+    "imagen": "fcb/christensen.jpeg"
+  },
+  {
+    "nombre": "Gerard Martín",
+    "dorsal": 18,
+    "posicion": "Defensa",
+    "imagen": "fcb/martin.jpeg"
+  },
+  {
+    "nombre": "Jules Koundé",
+    "dorsal": 23,
+    "posicion": "Defensa",
+    "imagen": "fcb/kounde.jpeg"
+  },
+  {
+    "nombre": "Eric García",
+    "dorsal": 24,
+    "posicion": "Defensa",
+    "imagen": "fcb/eric.jpeg"
+  },
+  {
+    "nombre": "Héctor Fort",
+    "dorsal": 39,
+    "posicion": "Defensa",
+    "imagen": "fcb/fort.jpeg"
+  },
+  {
+    "nombre": "Gavi",
+    "dorsal": 6,
+    "posicion": "Centrocampista",
+    "imagen": "fcb/gavi.jpeg"
+  },
+  {
+    "nombre": "Pedri",
+    "dorsal": 8,
+    "posicion": "Centrocampista",
+    "imagen": "fcb/pedri.jpeg"
+  },
+  {
+    "nombre": "Fermín López",
+    "dorsal": 16,
+    "posicion": "Centrocampista",
+    "imagen": "fcb/fermin.jpeg"
+  },
+  {
+    "nombre": "Marc Casadó",
+    "dorsal": 17,
+    "posicion": "Centrocampista",
+    "imagen": "fcb/casado.jpeg"
+  },
+  {
+    "nombre": "Dani Olmo",
+    "dorsal": 20,
+    "posicion": "Centrocampista",
+    "imagen": "fcb/olmo.jpeg"
+  },
+  {
+    "nombre": "Frenkie de Jong",
+    "dorsal": 21,
+    "posicion": "Centrocampista",
+    "imagen": "fcb/jong.jpeg"
+  },
+  {
+    "nombre": "Marc Bernal",
+    "dorsal": 22,
+    "posicion": "Centrocampista",
+    "imagen": "fcb/bernal.jpeg"
+  },
+  {
+    "nombre": "Ferran Torres",
+    "dorsal": 7,
+    "posicion": "Delantero",
+    "imagen": "fcb/ferran.jpeg"
+  },
+  {
+    "nombre": "Lamine Yamal",
+    "dorsal": 10,
+    "posicion": "Delantero",
+    "imagen": "fcb/lamine.jpeg"
+  },
+  {
+    "nombre": "Raphinha",
+    "dorsal": 11,
+    "posicion": "Delantero",
+    "imagen": "fcb/raphina.jpeg"
+  },
+  {
+    "nombre": "Roony Bardghji",
+    "dorsal": 19,
+    "posicion": "Delantero",
+    "imagen": "fcb/bardghji.jpeg"
+  },
+  {
+    "nombre": "Anthony Gordon",
+    "dorsal": 27,
+    "posicion": "Delantero",
+    "imagen": "fcb/gordon.jpeg"
+  }
 ]
