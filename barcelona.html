@@ -4,7 +4,6 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <script src="index.js" type="text/javascript" charset="utf-8"></script>
   <link rel="stylesheet" href="index.css">
   <title>FC BARCELONA...</title>
 </head>
@@ -21,14 +20,32 @@
   </header>
   <main>
         <h1>Jugadores del FC Barcelona</h1>
-    <div id="jugadores">
-      
-    </div>
+<template id="plantillaJugador">
+
+    <article class="card">
+
+        <img>
+
+        <div class="info">
+            <h2></h2>
+
+            <p class="dorsal"></p>
+            <p class="posicion"></p>
+            <p class="pais"></p>
+            <p class="edad"></p>
+            <p class="altura"></p>
+        </div>
+
+    </article>
+
+</template>
+
+<div class="contenedor"></div>
   </main>
   <footer>
         Lara Gonzalez Carranco &copy; 2026
 
   </footer>
 </body>
-
+<script src="index.js"></script>
 </html>

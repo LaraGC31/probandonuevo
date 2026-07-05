@@ -1,59 +1,26 @@
-window.onload = function () {
-    mostrarJugadores();
-    mostrarJugadoresAtm();
-    mostrarJugadoresVilla();
-   todo();
-}
+const plantilla = document.querySelector("#plantillaJugador");
+const contenedor = document.querySelector(".contenedor");
 
-function todo() {
-    const toggle = document.querySelector('.dropdown-toggle');
-    const menu = document.querySelector('.dropdown');
+fetch("b.json")
+.then(r => r.json())
+.then(datos => {
 
-    if (!toggle || !menu) return;
+    datos.forEach(jugador => {
 
-    toggle.addEventListener('click', function (e) {
-        if (window.innerWidth <= 768) {
-            e.preventDefault();
-            menu.classList.toggle('active');
-        }
+        const copia = plantilla.content.cloneNode(true);
+
+        copia.querySelector("img").src = jugador.imagen;
+        copia.querySelector("img").alt = jugador.nombre;
+
+        copia.querySelector("h2").textContent = jugador.nombre;
+        copia.querySelector(".dorsal").textContent = "👕 " + jugador.dorsal;
+        copia.querySelector(".posicion").textContent = jugador.posicion;
+        copia.querySelector(".pais").textContent = jugador.pais;
+        copia.querySelector(".edad").textContent = jugador.edad + " años";
+        copia.querySelector(".altura").textContent = jugador.altura;
+
+        contenedor.appendChild(copia);
+
     });
-}
 
-document.addEventListener('DOMContentLoaded', todo);
-document.addEventListener('DOMContentLoaded', todo);
-function mostrarJugadores() {
-    let contenedor = document.getElementById("jugadores");
-
-    if (!contenedor) return;
-
-    for (let i = 1; i < 20; i++) {
-        const img = document.createElement("img");
-        img.src = `fcb/imagen-${i}.png`;
-        img.alt = "Jugador";
-        contenedor.appendChild(img);
-    }
-}
-function mostrarJugadoresAtm() {
-    let contenedor = document.getElementById("jugadoresatm");
-
-    if (!contenedor) return;
-
-    for (let i = 1; i < 24; i++) {
-        const img = document.createElement("img");
-        img.src = `atm/imagen-${i}.jpg`;
-        img.alt = "JugadorATM";
-        contenedor.appendChild(img);
-    }
-}
-    function mostrarJugadoresVilla() {
-    let contenedor = document.getElementById("jugadoresvilla");
-
-    if (!contenedor) return;
-
-    for (let i = 1; i < 25; i++) {
-        const img = document.createElement("img");
-        img.src = `villa/imagen-${i}.jpeg`;
-        img.alt = "JugadorVILLA";
-        contenedor.appendChild(img);
-    }
-}
+});

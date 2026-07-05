@@ -1,0 +1,38 @@
+[
+    {
+        "nombre":"Joan García",
+        "dorsal":1,
+        "posicion":"Portero",
+        "pais":"España",
+        "edad":24,
+        "altura":"1,91 m",
+        "imagen":"fcb/joan.png"
+    },
+    {
+        "nombre":"Wojciech Szczęsny",
+        "dorsal":25,
+        "posicion":"Portero",
+        "pais":"Polonia",
+        "edad":36,
+        "altura":"1,95 m",
+        "imagen":"fcb/chesni.png"
+    },
+    {
+        "nombre":"Alejandro Balde",
+        "dorsal":3,
+        "posicion":"Defensa",
+        "pais":"España",
+        "edad":22,
+        "altura":"1,75 m",
+        "imagen":"fcb/balde.png"
+    },
+    {
+        "nombre":"Ronald Araújo",
+        "dorsal":4,
+        "posicion":"Defensa",
+        "pais":"Uruguay",
+        "edad":27,
+        "altura":"1,92 m",
+        "imagen":"fcb/ronald.png"
+    }
+]
