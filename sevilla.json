@@ -1,0 +1,128 @@
+[
+  {
+    "nombre": "Ørjan Nyland",
+    "posicion": "Portero",
+    "dorsal": 13,
+    "imagen": "img/jugadores/sevilla/nyland.png"
+  },
+  {
+    "nombre": "Odysseas Vlachodimos",
+    "posicion": "Portero",
+    "dorsal": 1,
+    "imagen": "img/jugadores/sevilla/vlachodimos.png"
+  },
+  {
+    "nombre": "Alberto Flores",
+    "posicion": "Portero",
+    "dorsal": 31,
+    "imagen": "img/jugadores/sevilla/alberto-flores.png"
+  },
+  {
+    "nombre": "Juanlu Sánchez",
+    "posicion": "Defensa",
+    "dorsal": 16,
+    "imagen": "img/jugadores/sevilla/juanlu.png"
+  },
+  {
+    "nombre": "José Ángel Carmona",
+    "posicion": "Defensa",
+    "dorsal": 2,
+    "imagen": "img/jugadores/sevilla/carmona.png"
+  },
+  {
+    "nombre": "César Azpilicueta",
+    "posicion": "Defensa",
+    "dorsal": 3,
+    "imagen": "img/jugadores/sevilla/azpilicueta.png"
+  },
+  {
+    "nombre": "Tanguy Nianzou",
+    "posicion": "Defensa",
+    "dorsal": 5,
+    "imagen": "img/jugadores/sevilla/nianzou.png"
+  },
+  {
+    "nombre": "Kike Salas",
+    "posicion": "Defensa",
+    "dorsal": 4,
+    "imagen": "img/jugadores/sevilla/kike-salas.png"
+  },
+  {
+    "nombre": "Ramón Martínez",
+    "posicion": "Defensa",
+    "dorsal": 22,
+    "imagen": "img/jugadores/sevilla/ramon-martinez.png"
+  },
+  {
+    "nombre": "Batista Mendy",
+    "posicion": "Centrocampista",
+    "dorsal": 15,
+    "imagen": "img/jugadores/sevilla/batista-mendy.png"
+  },
+  {
+    "nombre": "Lucien Agoumé",
+    "posicion": "Centrocampista",
+    "dorsal": 18,
+    "imagen": "img/jugadores/sevilla/agoume.png"
+  },
+  {
+    "nombre": "Djibril Sow",
+    "posicion": "Centrocampista",
+    "dorsal": 20,
+    "imagen": "img/jugadores/sevilla/sow.png"
+  },
+  {
+    "nombre": "Nemanja Gudelj",
+    "posicion": "Centrocampista",
+    "dorsal": 6,
+    "imagen": "img/jugadores/sevilla/gudelj.png"
+  },
+  {
+    "nombre": "Joan Jordán",
+    "posicion": "Centrocampista",
+    "dorsal": 8,
+    "imagen": "img/jugadores/sevilla/jordan.png"
+  },
+  {
+    "nombre": "Manu Bueno",
+    "posicion": "Centrocampista",
+    "dorsal": 28,
+    "imagen": "img/jugadores/sevilla/manu-bueno.png"
+  },
+  {
+    "nombre": "Rubén Vargas",
+    "posicion": "Delantero",
+    "dorsal": 11,
+    "imagen": "img/jugadores/sevilla/vargas.png"
+  },
+  {
+    "nombre": "Chidera Ejuke",
+    "posicion": "Delantero",
+    "dorsal": 21,
+    "imagen": "img/jugadores/sevilla/ejuke.png"
+  },
+  {
+    "nombre": "Isaac Romero",
+    "posicion": "Delantero",
+    "dorsal": 7,
+    "imagen": "img/jugadores/sevilla/isaac-romero.png"
+  },
+  {
+    "nombre": "Akor Adams",
+    "posicion": "Delantero",
+    "dorsal": 9,
+    "imagen": "img/jugadores/sevilla/akor-adams.png"
+  },
+  {
+    "nombre": "Alexis Sánchez",
+    "posicion": "Delantero",
+    "dorsal": 10,
+    "imagen": "img/jugadores/sevilla/alexis-sanchez.png"
+  },
+  {
+    "nombre": "Alfon González",
+    "posicion": "Delantero",
+    "dorsal": 17,
+    "imagen": "img/jugadores/sevilla/alfon.png"
+  }
+]

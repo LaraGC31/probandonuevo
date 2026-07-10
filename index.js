@@ -1,4 +1,5 @@
-const plantilla = document.querySelector("#plantillaJugador");
+function fcb() {
+    const plantilla = document.querySelector("#plantillaJugador");
 const contenedor = document.querySelector(".contenedor");
 
 fetch("b.json")
@@ -21,3 +22,5 @@ fetch("b.json")
     });
 
 });
+}
+    
