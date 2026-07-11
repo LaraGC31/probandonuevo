@@ -19,7 +19,7 @@ header{
 }
 
 .logo img{
-  width:150px;
+  width:100px;
   max-width:100%;
   height:auto;
 }
@@ -161,7 +161,7 @@ justify-content: center;
   }
 
   .logo img{
-    width:120px;
+    width:80px;
   }
 
  
