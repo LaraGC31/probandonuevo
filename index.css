@@ -224,7 +224,7 @@ h1{
 
 /* Tarjeta */
 
-.card{
+.card, .cardatm{
 
     background:white;
 
@@ -242,7 +242,7 @@ h1{
 
 }
 
-.card:hover{
+.card:hover, .cardatm:hover{
 
     transform:translateY(-12px);
 
@@ -261,6 +261,17 @@ h1{
     object-fit:cover;
 
     background:linear-gradient(160deg,#004D98,#A50044);
+
+}
+.cardatm img{
+
+    width:100%;
+
+    height:340px;
+
+    object-fit:cover;
+
+    background:linear-gradient(160deg,#f0f0f1,#A50044);
 
 }
 

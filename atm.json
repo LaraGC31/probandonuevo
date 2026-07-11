@@ -3,120 +3,114 @@
     "nombre": "Jan Oblak",
     "posicion": "Portero",
     "dorsal": 13,
-    "imagen": "img/jugadores/atletico/oblak.png"
+    "imagen": "atm/oblak.png"
   },
   {
     "nombre": "Juan Musso",
     "posicion": "Portero",
     "dorsal": 1,
-    "imagen": "img/jugadores/atletico/musso.png"
+    "imagen": "atm/musso.png"
   },
   {
     "nombre": "Robin Le Normand",
     "posicion": "Defensa",
     "dorsal": 24,
-    "imagen": "img/jugadores/atletico/le-normand.png"
+    "imagen": "atm/le-normand.png"
   },
   {
     "nombre": "José María Giménez",
     "posicion": "Defensa",
     "dorsal": 2,
-    "imagen": "img/jugadores/atletico/gimenez.png"
-  },
-  {
-    "nombre": "Clément Lenglet",
-    "posicion": "Defensa",
-    "dorsal": 15,
-    "imagen": "img/jugadores/atletico/lenglet.png"
-  },
-  {
-    "nombre": "Javi Galán",
-    "posicion": "Defensa",
-    "dorsal": 21,
-    "imagen": "img/jugadores/atletico/galan.png"
+    "imagen": "atm/gimenez.png"
   },
   {
     "nombre": "Nahuel Molina",
     "posicion": "Defensa",
     "dorsal": 16,
-    "imagen": "img/jugadores/atletico/molina.png"
-  },
-  {
-    "nombre": "César Azpilicueta",
-    "posicion": "Defensa",
-    "dorsal": 3,
-    "imagen": "img/jugadores/atletico/azpilicueta.png"
-  },
-  {
-    "nombre": "Reinildo Mandava",
-    "posicion": "Defensa",
-    "dorsal": 23,
-    "imagen": "img/jugadores/atletico/reinildo.png"
+    "imagen": "atm/molina.png"
   },
   {
     "nombre": "Marcos Llorente",
     "posicion": "Centrocampista",
     "dorsal": 14,
-    "imagen": "img/jugadores/atletico/llorente.png"
-  },
-  {
-    "nombre": "Rodrigo De Paul",
-    "posicion": "Centrocampista",
-    "dorsal": 5,
-    "imagen": "img/jugadores/atletico/de-paul.png"
-  },
-  {
-    "nombre": "Koke",
-    "posicion": "Centrocampista",
-    "dorsal": 6,
-    "imagen": "img/jugadores/atletico/koke.png"
-  },
-  {
-    "nombre": "Conor Gallagher",
-    "posicion": "Centrocampista",
-    "dorsal": 4,
-    "imagen": "img/jugadores/atletico/gallagher.png"
+    "imagen": "atm/llorente.png"
   },
   {
     "nombre": "Pablo Barrios",
     "posicion": "Centrocampista",
     "dorsal": 8,
-    "imagen": "img/jugadores/atletico/barrios.png"
-  },
-  {
-    "nombre": "Samuel Lino",
-    "posicion": "Centrocampista",
-    "dorsal": 12,
-    "imagen": "img/jugadores/atletico/lino.png"
+    "imagen": "atm/barrios.png"
   },
   {
     "nombre": "Giuliano Simeone",
     "posicion": "Delantero",
     "dorsal": 22,
-    "imagen": "img/jugadores/atletico/giuliano-simeone.png"
+    "imagen": "atm/simeone.png"
   },
   {
     "nombre": "Julián Álvarez",
     "posicion": "Delantero",
     "dorsal": 19,
-    "imagen": "img/jugadores/atletico/julian-alvarez.png"
-  },
-  {
-    "nombre": "Antoine Griezmann",
-    "posicion": "Delantero",
-    "dorsal": 7,
-    "imagen": "img/jugadores/atletico/griezmann.png"
+    "imagen": "atm/julian.png"
   },
   {
     "nombre": "Alexander Sørloth",
     "posicion": "Delantero",
     "dorsal": 9,
-    "imagen": "img/jugadores/atletico/sorloth.png"
+    "imagen": "atm/sorlot.png"
   },
-  {
-    "nombre": "Ángel Correa",
-    "posicion": "Delantero",
-    "dorsal": 10,
-    "imagen": "img/jugadores/atletico/correa.png"
-  }
+{
+  "nombre" : "Marc Pubill",
+  "posicion": "Defensa",
+  "dorsal": 4  ,
+  "imagen": "atm/pubill.png"
+},
+{
+  "nombre" : "Almada",
+  "posicion": "Centrocampista",
+  "dorsal" : 5,
+  "imagen": "atm/almada.png"
+},
+{
+  "nombre" : "Alex Baena",
+  "posicion": "Centrocampista",
+  "dorsal" : 10,
+  "imagen": "atm/baena.png"
+},
+{
+  "nombre" : "Hancko",
+  "posicion": "Defensa",
+  "dorsal" : 20,
+  "imagen": "atm/hancko.png"
+},
+{
+  "nombre" : "Johnny",
+  "posicion": "Centrocampista",
+  "dorsal" : 3,
+  "imagen": "atm/johnny.png"
+},
+{
+  "nombre" : "Lookman",
+  "posicion": "Delantero",
+  "dorsal" : 12,
+  "imagen": "atm/lookman.png"
+},
+{
+  "nombre" : "Mendoza",
+  "posicion": "Centrocampista",
+  "dorsal" : 7,
+  "imagen": "atm/mendoza.png"
+},
+{
+  "nombre" : "Ruggery",
+  "posicion": "Centrocampista",
+  "dorsal" : 18,
+  "imagen": "atm/ruggery.png"
+},
+{
+  "nombre" : "Vargas",
+  "posicion": "Centrocampista",
+  "dorsal" : 17,
+  "imagen": "atm/vargas.png"
+}
 ]
