@@ -11,7 +11,7 @@ html,body{
 }
 
 header{
-  background-color:#79CEA5;
+  background-image: linear-gradient( rgb(239, 159, 172), purple);
   padding:15px 20px;
   display:flex;
   justify-content:space-between;
@@ -37,7 +37,8 @@ nav a{
 }
 
 nav a:hover{
-  text-decoration:underline;
+  color: #fff;
+  text-decoration:double;
 }
 
 main{
@@ -177,25 +178,6 @@ justify-content: center;
     font-size:1.2rem;
   }
 }
-
-
-
-.contenedor{
-
-    display:grid;
-    grid-template-columns:repeat(auto-fit,minmax(260px,1fr));
-
-    gap:30px;
-
-    width:90%;
-
-    margin:auto;
-
-}
-
-
-
-
 /* Título */
 
 h1{
@@ -205,140 +187,3 @@ h1{
     color:#222;
 }
 
-/* Contenedor */
-
-.contenedor{
-
-    width:90%;
-    margin:auto;
-
-    display:grid;
-
-    grid-template-columns:repeat(auto-fit,minmax(280px,1fr));
-
-    gap:35px;
-
-    padding-bottom:50px;
-
-}
-
-/* Tarjeta */
-
-.card, .cardatm{
-
-    background:white;
-
-    border-radius:20px;
-
-    overflow:hidden;
-
-    box-shadow:0 15px 35px rgba(0,0,0,.12);
-
-    transition:.35s;
-
-    cursor:pointer;
-
-    position:relative;
-
-}
-
-.card:hover, .cardatm:hover{
-
-    transform:translateY(-12px);
-
-    box-shadow:0 25px 50px rgba(0,0,0,.25);
-
-}
-
-/* Imagen */
-
-.card img{
-
-    width:100%;
-
-    height:340px;
-
-    object-fit:cover;
-
-    background:linear-gradient(160deg,#004D98,#A50044);
-
-}
-.cardatm img{
-
-    width:100%;
-
-    height:340px;
-
-    object-fit:cover;
-
-    background:linear-gradient(160deg,#f0f0f1,#A50044);
-
-}
-
-/* Información */
-
-.info{
-
-    padding:20px;
-
-}
-
-.info h2{
-
-    text-align:center;
-
-    margin-bottom:15px;
-
-    color:#111;
-
-    font-size:1.7rem;
-
-}
-
-.info p{
-
-    margin:10px 0;
-
-    color:#555;
-
-    font-size:1rem;
-
-    display:flex;
-
-    align-items:center;
-
-    gap:10px;
-
-}
-
-/* Botón */
-
-.info button{
-
-    width:100%;
-
-    margin-top:20px;
-
-    padding:12px;
-
-    border:none;
-
-    border-radius:10px;
-
-    background:#004D98;
-
-    color:white;
-
-    font-size:1rem;
-
-    cursor:pointer;
-
-    transition:.3s;
-
-}
-
-.info button:hover{
-
-    background:#A50044;
-
-}
